@@ -54,3 +54,11 @@ Built with Claude: Japan 2026 の期間中（2026-11-02 12:30 のキックオフ
 | BGM（`game/audio/bgm/`、5曲） | 作者が Gemini（Google）で作った。全部インスト（歌なし） | 11/6 |
 | フォント | Noto Sans JP、Noto Serif JP（Google・Adobe）と、Ren'Py に付いている Source Han Sans の軽量版。どれも SIL Open Font License 1.1（`OFL.txt`） | — |
 | ゲームの仕組み | Ren'Py 8.5.2 | — |
+
+### 使った生成 AI の道具とプラン
+
+- 絵：ChatGPT の画像生成と、OpenAI の画像生成（Codex に入っているもの）。どちらも作者の ChatGPT Plus（有料）のアカウントで使った
+- 声：Gemini TTS（Google）。Google Cloud の Vertex AI（使った分を払う有料）で作った
+- BGM：Gemini アプリ（Google。音楽は Lyria）。作者の Google AI Pro（有料）で作った
+
+どの道具の規約も、作った物は使う人のもので、公開を禁じていない（2026-11-07 に OpenAI の利用規約、Google 利用規約、Google Cloud のサービス固有の規約、Gemini API 追加利用規約の本文で確かめた）。AI で作った物を人が作った物とは見せない（どの規約にもある決まり）。
