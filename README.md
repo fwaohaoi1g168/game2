@@ -13,7 +13,7 @@ Ren'Py で作ったノベルゲーム。
 
 ## 遊ぶには（Windows）
 
-Release（https://github.com/fwaohaoi1g168/game2/releases/latest ）の `game2-1.1-pc.zip` を落として展開し、`game2-1.1-pc\game2.exe` を起動する。2026-11-08 に、タイトル画面の絵と、立ち絵の表情を直した版。外付けの目の取り込みに使った 2026-11-06 の版は、Release `v1.0` の `game2-1.0-pc.zip`。作りは Ren'Py 8.5.2。
+Release（https://github.com/fwaohaoi1g168/game2/releases/tag/v1.1 ）の `game2-1.1-pc.zip` を落として展開し、`game2-1.1-pc\game2.exe` を起動する。2026-11-08 に、タイトル画面の絵と、立ち絵の表情を直した版。外付けの目の取り込みに使った 2026-11-06 の版は、Release `v1.0` の `game2-1.0-pc.zip`。作りは Ren'Py 8.5.2。
 
 ## ライセンス
 
