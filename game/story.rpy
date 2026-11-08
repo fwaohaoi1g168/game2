@@ -16,42 +16,27 @@ label scene_1:
     with dissolve
     voice "audio/voice/father_01_01.ogg"
     f "千鶴、喜べ。おまえの縁談が決まったぞ"
-    show chizuru kangaeru at pos_l
-    show father base at pos_r
-    with dissolve
     voice "audio/voice/chizuru_01_01.ogg"
     c "……縁談、でございますか"
     voice "audio/voice/father_01_02.ogg"
     f "鷲尾銀行の三男坊だ。市電の線路を延ばすには、銀行と仲良くしておかねばならんからな。わっはっは"
-    show chizuru honne at pos_l
-    show father base at pos_r
-    with dissolve
     voice "audio/voice/chizuru_01_02.ogg"
     c "お父様。わたくし、その方にお会いしたこともございませんわ"
     voice "audio/voice/father_01_03.ogg"
     f "会わずともよい。わしが会った。なかなかの好青年だったぞ"
-    show chizuru shitataka at pos_l
-    show father base at pos_r
-    with dissolve
     voice "audio/voice/chizuru_01_03.ogg"
     c "お父様が恋をなさるわけではございませんでしょう"
-    show chizuru shitataka at pos_l
+    show chizuru futsu at pos_l
     show father owarai at pos_r
     with dissolve
     voice "audio/voice/father_01_04.ogg"
     f "わっはっは、うまいことを言う"
     "父は笑うだけで、取り合わない。こういうとき、父はいつも商談と同じ顔をしている。"
-    show chizuru kangaeru at pos_l
-    show father owarai at pos_r
-    with dissolve
     "千鶴は胸に抱いた本を、きゅっと握った。"
     "書斎の本は、ほとんど読みつくした。恋物語も、帝都の案内書も、新聞の事件記事を集めた本も。"
-    show chizuru honne at pos_l
-    show father owarai at pos_r
-    with dissolve
     voice "audio/voice/chizuru_01_04.ogg"
     c "わたくし、一度でいいから、自分で選んだ方と恋をしてみたいのです。本の中ではなく、本物の街で"
-    show chizuru honne at pos_l
+    show chizuru futsu at pos_l
     show father futsu at pos_r
     with dissolve
     voice "audio/voice/father_01_05.ogg"
@@ -60,9 +45,6 @@ label scene_1:
     f "あそこは人が多い。スリも出る。近ごろは人さらいまで出るというではないか"
     voice "audio/voice/father_01_07.ogg"
     f "ひとりで外へなど、とんでもない。……まあ、腕の立つ護衛でもおれば、話は別だがな"
-    show chizuru kangaeru at pos_l
-    show father futsu at pos_r
-    with dissolve
     voice "audio/voice/chizuru_01_05.ogg"
     c "護衛……"
     voice "audio/voice/father_01_08.ogg"
@@ -78,7 +60,7 @@ label scene_1:
 label scene_2:
     # 屋敷を抜け出す
     $ se("door")
-    show chizuru shitataka at pos_l
+    show chizuru hashagu at pos_l
     with dissolve
     "十時十分、女中頭が二階の廊下を見回る。"
     "十時十五分、庭師が裏庭の水まきを終えて、納屋へ戻る。"
@@ -86,8 +68,6 @@ label scene_2:
     "毎日、窓から眺めていれば、それくらいは覚えてしまう。"
     voice "audio/voice/chizuru_02_01.ogg"
     c "本に書いてあった通りですわ。計画とは、観察の積み重ねである、と"
-    show chizuru hashagu at pos_l
-    with dissolve
     "千鶴は裏口の扉をそっと開けて、外の光の中へ飛び出した。"
     voice "audio/voice/chizuru_02_02.ogg"
     c "行ってまいります。……どなたにも、聞こえていないでしょうけれど"
@@ -105,19 +85,13 @@ label scene_3:
     c "動いておりますわ……！　本の挿絵より、ずっと大きい！"
     "洋品店のショーウィンドウ、ミルクホールの看板、新聞を売る少年の声。"
     "どれもこれも、初めて見るものばかりだ。"
-    show chizuru futsu at pos_l
-    with dissolve
     voice "audio/voice/chizuru_03_02.ogg"
     c "いけない、見とれている場合ではありませんわ。今日の目的は、恋です"
-    show chizuru kangaeru at pos_l
-    with dissolve
     "千鶴は、恋物語で覚えた心得を思い出す。"
     voice "audio/voice/chizuru_03_03.ogg"
     c "出会いのきっかけは、まず手みやげから。……手みやげ、手みやげ"
     voice "audio/voice/kudamono_03_01.ogg"
     kudamono "お嬢ちゃん、林檎どうだい。今朝とれたての、甘いやつだよ"
-    show chizuru hashagu at pos_l
-    with dissolve
     voice "audio/voice/chizuru_03_04.ogg"
     c "まあ！　それをくださいまし。ええと……五つ"
     voice "audio/voice/kudamono_03_02.ogg"
@@ -148,8 +122,6 @@ label scene_3:
             shosei "あ、下巻の続きを今夜中に読みたいので。じゃあ、また本屋で！"
             "書生は本を抱えて、軽やかに去っていった。"
             "千鶴の手には、渡しそびれた林檎がひとつ残った。"
-            show chizuru kangaeru at pos_l
-            with dissolve
             voice "audio/voice/chizuru_03a_05.ogg"
             c "……本のお話しか、していませんでしたわね"
         "人だかりのけんかを止めていた車夫さん":
@@ -170,8 +142,6 @@ label scene_3:
             shafu "名乗るほどのもんじゃねえ。おっと、お客だ。毎度！"
             "車夫は人力車を引いて、あっという間に通りの向こうへ消えた。"
             "林檎は、ひとつも減っていない。"
-            show chizuru kangaeru at pos_l
-            with dissolve
             voice "audio/voice/chizuru_03b_04.ogg"
             c "……受け取ってすら、いただけませんでしたわ"
         "道ばたの似顔絵描きさん":
@@ -197,14 +167,12 @@ label scene_3:
             c "わ、わたくしはただ、お話を……"
             voice "audio/voice/nigaoe_03c_06.ogg"
             nigaoe "はい、十銭ね。毎度あり"
-            show chizuru kangaeru at pos_l
-            with dissolve
             "似顔絵だけが、千鶴の手元に残った。"
             voice "audio/voice/chizuru_03c_04.ogg"
             c "……子ども扱い、されてしまいましたわ"
     "そのあとも、千鶴は何人にも声をかけた。"
     "帽子屋の店員には、帽子をすすめられた。巡査には、迷子だと思われた。お茶屋の若旦那には、お茶を一杯ごちそうになって、それきりだった。"
-    show chizuru kangaeru at pos_l
+    show chizuru futsu at pos_l
     with dissolve
     "気がつけば、日が傾いていた。"
     voice "audio/voice/chizuru_03_06.ogg"
@@ -239,14 +207,11 @@ label scene_4:
     otoko "は？"
     voice "audio/voice/chizuru_04_02.ogg"
     c "今日はいちにち、わたくしから声をかけてばかりでしたの。殿方のほうから声をかけていただいたのは、はじめてです！"
-    show chizuru hashagu at pos_l
-    show tetsuji komaru at pos_r
-    with dissolve
     voice "audio/voice/tetsuji_04_04.ogg"
     otoko "お、おう。そりゃあ、よかったな"
     "男は少したじろいだ。どうやら、思っていた返事と違ったらしい。"
     show chizuru futsu at pos_l
-    show tetsuji komaru at pos_r
+    show tetsuji sugomu at pos_r
     with dissolve
     voice "audio/voice/chizuru_04_03.ogg"
     c "でも、ひとつだけ。どうして、わたくしがお屋敷に住んでいると、おわかりになったのですか"
@@ -330,15 +295,15 @@ label scene_6:
     t "……提案？"
     voice "audio/voice/chizuru_06_02.ogg"
     c "わたくしを、お屋敷まで送ってくださいまし。護衛として、あなたを雇います"
+    show chizuru shitataka at pos_l
+    show tetsuji sugomu at pos_r
+    with dissolve
     voice "audio/voice/tetsuji_06_02.ogg"
     t "はあ！？　俺は、あんたをさらおうとしてた人間だぞ"
     voice "audio/voice/chizuru_06_03.ogg"
     c "ええ。ですから、お願いしているのです"
     voice "audio/voice/chizuru_06_04.ogg"
     c "人をさらう方なら、人をさらう方の手口も、裏道も、よくご存じでしょう？　護衛にこれほど向いた方はおりませんわ"
-    show chizuru shitataka at pos_l
-    show tetsuji sugomu at pos_r
-    with dissolve
     voice "audio/voice/tetsuji_06_03.ogg"
     t "……罠だろ。屋敷に着いたとたん、巡査がずらっと並んでるんだろ"
     voice "audio/voice/chizuru_06_05.ogg"
@@ -348,9 +313,6 @@ label scene_6:
         "お金（今日のお小遣いを全部）":
             voice "audio/voice/chizuru_06a_01.ogg"
             c "お給金をお支払いします。こちらを"
-            show chizuru shitataka at pos_l
-            show tetsuji komaru at pos_r
-            with dissolve
             "千鶴が巾着を逆さにすると、銀貨と銅貨が、鉄次の抱えた林檎の上にじゃらじゃらと降ってきた。"
             voice "audio/voice/tetsuji_06a_01.ogg"
             t "ちょ、おい、林檎の上に……いくらあるんだ、これ"
@@ -365,9 +327,6 @@ label scene_6:
         "お仕事（まっとうな働き口）":
             voice "audio/voice/chizuru_06b_01.ogg"
             c "お仕事を、ご紹介いたします"
-            show chizuru shitataka at pos_l
-            show tetsuji komaru at pos_r
-            with dissolve
             voice "audio/voice/tetsuji_06b_01.ogg"
             t "仕事？"
             voice "audio/voice/chizuru_06b_02.ogg"
@@ -381,9 +340,6 @@ label scene_6:
         "秘密（人さらいのことは誰にも言わない）":
             voice "audio/voice/chizuru_06c_01.ogg"
             c "今日のことは、どなたにも申しません"
-            show chizuru shitataka at pos_l
-            show tetsuji komaru at pos_r
-            with dissolve
             voice "audio/voice/tetsuji_06c_01.ogg"
             t "……誰にも？"
             voice "audio/voice/chizuru_06c_02.ogg"
@@ -446,17 +402,11 @@ label scene_6:
     t "花小路って、あの、市電の会社の、花小路か……？"
     voice "audio/voice/chizuru_06_15.ogg"
     c "父の会社ですわ。この道の線路も、父が引きましたの"
-    show chizuru shitataka at pos_l
-    show tetsuji kuzure at pos_r
-    with dissolve
     "鉄次の手から、林檎がひとつ転げ落ちた。"
     voice "audio/voice/tetsuji_06_12.ogg"
     t "帝都でいちばんの金持ちの娘じゃねえか……そんなのに手ぇ出そうとしてたのか、俺……"
     voice "audio/voice/chizuru_06_16.ogg"
     c "ええ。ですから今日のあなたは、運がよかったのですわ。わたくしに見抜かれて"
-    show chizuru shitataka at pos_l
-    show tetsuji komaru at pos_r
-    with dissolve
     voice "audio/voice/tetsuji_06_13.ogg"
     t "どういう理屈だよ……"
 
@@ -532,7 +482,7 @@ label scene_7:
     "さらわれたのは、人さらいのほうだった。"
     scene bg yashiki_soto
     with fade
-    show chizuru shitataka at pos_l
+    show chizuru hashagu at pos_l
     show tetsuji komaru at pos_r
     show father base at pos_c
     with dissolve
@@ -542,10 +492,6 @@ label scene_7:
     f "む……まあ、会ってみるのはよいことだ"
     voice "audio/voice/chizuru_07_06.ogg"
     c "それから、恋のほうも。これから、ゆっくり探しますわ"
-    show chizuru hashagu at pos_l
-    show tetsuji komaru at pos_r
-    show father base at pos_c
-    with dissolve
     "千鶴は、鉄次のほうを向いた。"
     voice "audio/voice/chizuru_07_07.ogg"
     c "明日も、お付き合いくださいましね。鉄次さん"

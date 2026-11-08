@@ -19,12 +19,12 @@ define config.name = _("箱入り娘のナンパ大作戦")
 ## 上で定義したタイトルをメインメニュースクリーン（ゲーム起動後、最初に表示され
 ## るスクリーン）に表示するかどうか決めます。False にすると表示しません。
 
-define gui.show_name = False
+define gui.show_name = True
 
 
 ## ゲームのバージョン。
 
-define config.version = "1.1"
+define config.version = "1.0"
 
 ## 11/6：Ren'Py の同期（セーブをネットで受け渡す機能）は使わないので、ボタンを出さない
 define config.has_sync = False

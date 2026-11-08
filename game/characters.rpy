@@ -32,7 +32,7 @@ init python:
 
     ## 立ち絵：images/chara/<キャラ>_<表情>.png があればそれを、なければ <キャラ>_base.png を使う
     _EXPRS = {
-        "chizuru": ["futsu", "hashagu", "shitataka", "honne", "kangaeru"],
+        "chizuru": ["futsu", "hashagu", "shitataka", "honne"],
         "tetsuji": ["sugomu", "komaru", "kuzure"],
         "father": ["base", "futsu", "owarai"],
     }

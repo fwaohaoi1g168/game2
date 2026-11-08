@@ -21,7 +21,7 @@ SPEAKERS = {
 VOICE_ID = {"千鶴": "chizuru", "鉄次": "tetsuji", "父": "father", "書生": "shosei", "車夫": "shafu",
             "似顔絵描き": "nigaoe", "果物屋": "kudamono"}
 SPRITES = {"千鶴": "chizuru", "鉄次": "tetsuji", "父": "father"}
-EXPR = {"ふつう": "futsu", "はしゃぐ": "hashagu", "したたか": "shitataka", "本音": "honne", "考え込む": "kangaeru",
+EXPR = {"ふつう": "futsu", "はしゃぐ": "hashagu", "したたか": "shitataka", "本音": "honne",
         "すごむ": "sugomu", "困る": "komaru", "崩れ": "kuzure", "大笑い": "owarai"}
 BG = {"屋敷": "yashiki", "屋敷の中": "yashiki", "屋敷の外": "yashiki_soto", "街": "machi", "夕暮れの道": "yugure"}
 CG = {"オチ": "ochi"}
